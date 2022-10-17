@@ -118,3 +118,18 @@ print(last_name)
 #Some methods require Parameters. (Documentation Helper: If a parameter is in [], it is optional)
 test = last_name.find("t")
 print(test)
+
+
+#Conditionals
+
+
+age = 16
+
+# Watch out for the intendation!
+if age>16:
+    print("Here you go, beer")
+    print("lkdfgjkl")
+elif age==16:
+    print("Only beer")    
+else:
+    print("TOO YOUNG!!")
