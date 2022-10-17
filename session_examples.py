@@ -14,6 +14,9 @@ sldöjfgjlk
 dlsfkglkdfj
 '''
 # To print something on the terminal, use print(whatToPrint)
+from locale import currency
+
+
 print("""
 sldöjfgjlk
 
@@ -86,3 +89,32 @@ print(added_numbers)
 number_one = number_one + 4
 print("Assigned anew")
 print(number_one)
+
+#Types
+
+number_one = 4
+print(type(0.8))
+solution = 3.0
+print(type(solution))
+
+currywurst = int(3.9)
+
+print(type(currywurst))
+print(currywurst)
+
+
+
+#methods
+
+last_name = "kittlaus lösajdgk öloadjfglk adjsfgpojpadof"
+
+#Methods are used with a dot on the variable you want to use  
+test = last_name.capitalize()
+
+print(test)
+#The actual value of the variable does not change! (We could overwrite it)
+print(last_name)
+
+#Some methods require Parameters. (Documentation Helper: If a parameter is in [], it is optional)
+test = last_name.find("t")
+print(test)

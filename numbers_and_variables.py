@@ -8,25 +8,25 @@
 #                |___/        
 
 # Create a variable called secret_num and set it to any number you'd like:
-
+secret_num = 41
 
 # Increase secret_num by 1
-
+solution = secret_num + 1
 
 # Next, take the new number and double it
-
+solution = solution * 2
 
 # Next, take the new number and add four to it
-
+solution = solution + 4
 
 # Next, take the new number and divide by two
-
+solution = solution / 2
 
 # Next, take the new number and subtract your original secret number from it
-
+solution = solution - secret_num
 
 # Print the final result
-
+print(int(solution))
 
 
 # To see my magical prediction, scroll down...
