@@ -18,3 +18,8 @@ last = "Klozenheimer"
 
 # Create a "nickname" variable that holds the first 4 characters of "last" (use a slice)
 # Print it out 
+
+
+# BONUS:
+# Create a new file where you ask for the age of the user (in years, try a float if 
+# you want to) and print out his age in days. (Ignore the leap year)
