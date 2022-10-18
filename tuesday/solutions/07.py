@@ -8,7 +8,7 @@ while running:
     current_player=player_1
     while sticks > 0:
         pipes = "|"
-        for num in range(sticks):
+        for num in range(1,sticks):
             pipes += " |"
         print(pipes)
         print(f"There are {sticks} matches left.")
