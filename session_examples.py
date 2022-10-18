@@ -133,3 +133,19 @@ elif age==16:
     print("Only beer")    
 else:
     print("TOO YOUNG!!")
+
+
+
+# Recap Day 1
+
+
+# Conditional Operaterators
+
+
+# Loops
+
+
+# Function
+
+
+#Collections
