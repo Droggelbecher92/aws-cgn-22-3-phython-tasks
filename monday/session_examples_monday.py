@@ -125,7 +125,7 @@ print(test)
 
 age = 16
 
-# Watch out for the intendation!
+# Watch out for the indentation!
 if age>16:
     print("Here you go, beer")
     print("lkdfgjkl")
@@ -133,19 +133,3 @@ elif age==16:
     print("Only beer")    
 else:
     print("TOO YOUNG!!")
-
-
-
-# Recap Day 1
-
-
-# Try some Operaterators
-
-
-# Loops
-
-
-# Function
-
-
-#Collections
