@@ -85,5 +85,38 @@ for whatever in range(2,27,2):
 
 # Function
 
+def anyname():
+    print("kjdfhg")
+
+
+anyname()
+
+def addition(currywurst, num2):
+    return f"The additon is {currywurst+num2}"
+
+print(addition(3,5))
+
+sum = addition(5,7)
+
+addition("B","A")
+
+
+def fizzbuzz(number):
+    if number%3==0 and number%5==0:
+        print("FizzBuzz")
+    elif number%3==0:
+        print("Fizz")
+    elif number%5==0:
+        print("Buzz")
+    else:
+        print(number)
+
+
+fizzbuzz(4)
+fizzbuzz(15)
+
+
+
+
 
 # Collections
