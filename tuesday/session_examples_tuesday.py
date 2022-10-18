@@ -59,13 +59,16 @@ print("minute!")
 
 # for
 # known ammounts of loops
+# works with iterables. So far we know Strings, but also very handy for Lists
 
 text = "Hello World"
 
+#Every Symbol in the string will be used
 for currywurst in text:
     print(currywurst)
 
 
+#With range() we can also set our loop 
 for number in range(11):
     print(number)
 
