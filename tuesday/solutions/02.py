@@ -3,7 +3,7 @@ from curses.ascii import isdigit
 
 number = input("Please enter your number:")
 
-if number.isdigit:
+if number.isdigit():
     number = int(number)
     if number%3==0 and number%5==0:
         print("FizzBuzz")
